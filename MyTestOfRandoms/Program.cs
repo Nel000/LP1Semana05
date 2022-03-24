@@ -27,6 +27,9 @@ namespace MyTestOfRandoms
                 // Add value of current dice to sum
                 sum += rnd.Next(1, 6);
             }
+
+            // Show sum of all thrown die
+            Console.WriteLine($"Sum of all thrown die values: {sum}");
         }
     }
 }
