@@ -6,7 +6,14 @@ namespace MyTestOfRandoms
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            // Variable to store user input
+            int n;
+
+            // Ask user for input
+            Console.Write("Insert number of die to throw: ");
+
+            // Store user input in variable
+            n = Convert.ToInt32(Console.ReadLine());
         }
     }
 }
